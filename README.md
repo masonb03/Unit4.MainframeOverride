@@ -60,3 +60,28 @@ feel free to follow the steps below.
 ## Submission
 
 Please submit the link to your public GitHub repository.
+
+1. SELECT * FROM forum_posts WHERE content ILIKE '%emptystack%' AND content ILIKE '%dad%' AND date_part('year', date) = 2048 AND date_part('month', date) = 4;
+2. SELECT * FROM forum_accounts WHERE username = 'smart-money-44';
+3. SELECT * FROM forum_accounts WHERE last_name = 'Steele';
+4. SELECT * FROM emptystack_accounts where last_name = 'Steele';
+5. psql mainframe_override -f emptystack.sql
+6. SELECT id, "from", subject, body FROM emptystack_messages WHERE body ILIKE '%taxi%'   OR body ILIKE '%pr
+oject%'   OR body ILIKE '%self-driving%'   OR body ILIKE '%admin%' LIMIT 10;
+7. SELECT username, password, first_name, last_name FROM emptystack_accounts WHERE username = 'your-boss-99';
+8.  SELECT * FROM emptystack_projects WHERE code ILIKE '%taxi%';
+9. node mainframe -stop DczE0v2b
+WARNING: admin access required. Unauthorized access will be logged.
+Username: your-boss-99
+Password: notagaincarter
+Welcome, your-boss-99.
+Project ID: DczE0v2b
+Initiating project shutdown sequence...
+5...
+4...
+3...
+2...
+1...
+Project shutdown complete.
+
+
